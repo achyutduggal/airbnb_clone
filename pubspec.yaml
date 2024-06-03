@@ -1,0 +1,37 @@
+name: airbnb_clone
+description: A new Flutter project
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  get: ^4.6.1
+  flutter_svg: ^0.22.0
+  carousel_slider: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+
+  # For adding custom fonts
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFontFamily-Regular.ttf
+  #       - asset: fonts/YourFontFamily-Italic.ttf
+  #         style: italic
